@@ -70,7 +70,7 @@ body {
 
         
 
-        transform: rotate(90deg);
+        writing-mode: vertical-rl;
         transform-origin: left center;
         z-index: 999;
 
@@ -81,7 +81,6 @@ body {
 
     .info-banner svg {
         margin: 3px;
-        transform: rotate(-90deg);
         fill: #2b303a;
     }
 
