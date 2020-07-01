@@ -1,0 +1,259 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2B303A;
+    margin: 0 auto;
+}
+
+
+.hero{
+    background-color: white;
+    font-family: Raleway;
+
+}
+
+.nav--logo {
+    
+}
+
+.hero h1{
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.7);
+    color: #2B303A;
+    
+}
+
+.hero span{
+    font-weight: 700;
+    
+
+}
+
+.splash--portrait img {
+
+    
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.experience{
+    
+}
+
+.projects{
+    
+}
+
+.contact{
+    
+}
+
+
+@media (min-width: 1280px) {
+
+
+    .info-banner {
+
+        margin-top: 25vh;
+        display: flex;
+        align-items: center;
+
+        position: fixed;
+        left: 2rem;
+
+        
+
+        transform: rotate(90deg);
+        transform-origin: left center;
+        z-index: 999;
+
+        font-size: 1.25rem;
+        font-family: raleway;
+        font-weight: 500;
+    }
+
+    .info-banner svg {
+        margin: 3px;
+        transform: rotate(-90deg);
+        fill: #2b303a;
+    }
+
+    .info-banner a {
+        margin: 9px;
+
+        text-decoration: none;
+        color:#2B303A;
+    }
+
+    .info-banner a #mail:hover {
+        color:#848b99;
+    }
+
+    .info-banner a svg:hover {
+        fill:#848b99;
+    }
+
+    .info-banner a:hover {
+        color:#848b99;
+    }
+
+    .socials {  
+
+    }
+    
+    .hero {
+        padding: 2rem;
+        min-height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hero h1 {
+        
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .nav--logo {
+    
+    }
+
+    .splash {
+        display:flex;
+        margin: auto 0;
+
+        justify-content: center;
+    }
+
+    .splash--graphic {
+        margin-top: -150px;
+        position: relative;
+    
+    }
+
+    .splash--graphic--portrait {
+        z-index: 1;
+        position: relative;
+    }
+
+    .splash--graphic--bubbles {
+        position: absolute;
+        z-index: 0;
+
+
+    }
+
+    .splash--graphic--bubbles #circle1 {
+        position: absolute;
+        z-index: 0;
+
+        bottom: 56px;
+        left: 79px;
+        
+    }
+
+    .splash--graphic--bubbles #circle2 {
+        position: absolute;
+        z-index: 0;
+
+        bottom: 40px;
+        left: 223px;
+        
+    }
+
+    .splash--graphic--bubbles #circle3 {
+        position: absolute;
+        z-index: 0;
+
+        bottom: 350px;
+        left: 140px;
+        
+    }
+
+    .splash--graphic--bubbles #circle4 {
+        position: absolute;
+        z-index: 0;
+
+        bottom: 555px;
+        left: 350px;
+        
+    }
+
+    .splash--text h1 {
+        font-size: 3.25rem;
+    }
+
+    .splash--text p {
+        font-size: 1.25rem;
+    }
+
+    .about{
+        margin-top: 25vh;
+        font-size: 1.25rem;
+        font-family: raleway;
+        
+    }
+
+    .about-text {
+        margin-right: 12rem;
+    }
+    
+    .experience{
+
+        margin-top: 25vh;
+        margin-right: 24rem;
+
+        display: flex;
+        justify-content: center;
+
+        color: white;
+        font-size: 1.25rem;
+        font-family: raleway;
+
+    }
+
+    .experience h1 {
+        margin-right: 6rem;
+        
+    }
+
+    .experience-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    
+    .experience-cards-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects{
+        color: white;
+        font-size: 1.25rem;
+        font-family: raleway;
+        
+    }
+    
+    .contact{
+        color: white;
+        font-size: 1.25rem;
+        font-family: raleway;
+        
+    }
+ }
